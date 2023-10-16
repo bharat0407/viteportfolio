@@ -1,0 +1,53 @@
+@import "../../App.scss";
+.parralax{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+    h1{
+        font-size: 100px;
+        @include mobile{
+            font-size: 75px;
+            text-align: center;
+        }
+    }
+    .mountains{
+        background-image: url(/public/mountains.png);
+        background-size:cover ;
+        background-position: bottom;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: 3;
+        @include mobile{
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+    .planets{
+        background-image: url(/public/planets.png);
+        background-size:cover ;
+        background-position: bottom;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+        @include mobile{
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+    .stars{
+        background-image: url(/public/stars.png);
+        background-size:cover ;
+        background-position: bottom;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+    }
+}
