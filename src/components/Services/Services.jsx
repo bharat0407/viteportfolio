@@ -24,12 +24,13 @@ const Services = () => {
     //const Inview = useInView(ref,{margin:"-100px"})
     return (
         <motion.div   className="services" variants={wrapperVaraints}
-        //initial="initial"
+        initial="initial"
         //animate="animate"
          //animate ={Inview && "animate"}
          whileInView="animate"
         >
-            <motion.div className="textContainer" variants={wrapperVaraints}>
+            <motion.div className="textContainer" variants={wrapperVaraints}
+            >
                 <p>I focus on helping your brand grow and
                     <br />move forward
                 </p>
@@ -37,7 +38,7 @@ const Services = () => {
             </motion.div>
             <motion.div className="titleContainer">
                 <div className="title">
-                    <img src="/people.webp" alt="" />
+                    <img src="assets/people.webp" alt="" />
                     <h1><motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas</h1>
                 </div>
                 <div className="title">

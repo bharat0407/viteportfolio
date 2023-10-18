@@ -51,14 +51,14 @@ const Hero = () => {
                         <motion.button variants={textvariants}>See my Projects</motion.button>
                         <motion.button variants={textvariants}>Contact Me</motion.button>
                     </motion.div>
-                    <motion.img variants={textvariants} animate="scrollBtn" src="/scroll.png" alt="" />
+                    <motion.img variants={textvariants} animate="scrollBtn" src="assets/scroll.png" alt="" />
                 </motion.div>
             </div>
             <motion.div  initial="initial" animate="animate" className="textSliderContainer" variants={sliderVariant}>
                 Writer Content Creator Influencer
             </motion.div>
             <div className="imgContainer">
-                <img src="/profile.jpg" alt="" />
+                <img src="assets/profile.jpg" alt="" />
             </div>
         </div>
     )

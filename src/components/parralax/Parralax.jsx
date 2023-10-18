@@ -19,7 +19,7 @@ const Parralax = ({type}) => {
       <motion.h1 style={{y: ytext}}>{type==="Services" ? "WHAT WE DO" : "WHAT WE DID"}</motion.h1>
          <motion.div className="mountains">
          </motion.div>
-         <motion.div  style={{y :ybg,backgroundImage:`url(${type==="Services" ?"/planets.png":"sun.png"})`}} className="planets">
+         <motion.div  style={{y :ybg,backgroundImage:`url(${type==="Services" ?"assets/planets.png":"assets/sun.png"})`}} className="planets">
          </motion.div>
          <motion.div style={{x :xbg}} className="stars">
          </motion.div>

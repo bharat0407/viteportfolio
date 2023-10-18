@@ -44,6 +44,7 @@
 
             @include mobile {
                 flex-direction: column;
+                gap: 20px;
             }
 
             .imgContainer {
@@ -62,8 +63,8 @@
                     border-radius: 10px;
 
                     @include mobile {
-                        object-fit: contain;
-                        width: 100%;
+                        object-fit: cover;
+                        height: 100%;
                     }
                 }
             }
@@ -80,6 +81,7 @@
                     transform: none !important;
                     align-self: center;
                     align-items: center;
+                    gap: 20px;
                 }
 
                 h1 {

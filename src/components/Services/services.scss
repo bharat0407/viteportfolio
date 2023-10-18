@@ -9,6 +9,7 @@
 
     @include mobile {
         justify-content: space-between;
+        transform: none !important; 
     }
 
     .textContainer {
